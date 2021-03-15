@@ -1,22 +1,31 @@
 {
-  "name": "wunderlist-api",
-  "version": "1.0.0",
-  "description": "Backend for mobile develop class 2021A",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SilfridoReverol/Wunderlist-API.git"
-  },
-  "author": "Silfrido Reverol",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SilfridoReverol/Wunderlist-API/issues"
-  },
-  "homepage": "https://github.com/SilfridoReverol/Wunderlist-API#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "wunderlist-api",
+	"version": "1.0.0",
+	"description": "Backend for mobile develop class 2021A",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"server": "nodemon server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SilfridoReverol/Wunderlist-API.git"
+	},
+	"author": "Silfrido Reverol",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SilfridoReverol/Wunderlist-API/issues"
+	},
+	"homepage": "https://github.com/SilfridoReverol/Wunderlist-API#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"config": "^3.3.6",
+		"express": "^4.17.1",
+		"express-validator": "^6.10.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.12.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
 }
