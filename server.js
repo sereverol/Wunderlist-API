@@ -5,6 +5,11 @@ connectDB();
 
 const app = express();
 
-const PORT = process.env.PORT || 5000;
+app.use(express.json({ extended: false }));
+
+app.use('/api/users', require('./routes/api/users'));
+app.use('/api/auth', require('./routes/api/auth'));
+
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => console.log(`Server initialized on port ${PORT}`));

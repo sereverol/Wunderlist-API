@@ -1,3 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://wlistadmin:user123@wlistdb.ywiai.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://wlistadmin:user123@wlistdb.ywiai.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"jwtSecret": "mysecrettoken"
 }
